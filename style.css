@@ -753,7 +753,8 @@
     .cert-section {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        gap: 30px;
         padding: 25px 0;
     }
 
@@ -790,6 +791,22 @@
         width: 300px;
         height: 200px;
         background: url(img/cert3.png);
+        border: none;
+        box-shadow: 0 0 15px #00000033;
+        background-size: cover;
+    }
+    .cert4 {
+        width: 300px;
+        height: 420px;
+        background: url(img/certa.png);
+        border: none;
+        box-shadow: 0 0 15px #00000033;
+        background-size: cover;
+    }
+    .cert5 {
+        width: 300px;
+        height: 420px;
+        background: url(img/certa2.png);
         border: none;
         box-shadow: 0 0 15px #00000033;
         background-size: cover;
